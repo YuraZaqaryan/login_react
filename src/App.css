@@ -1,0 +1,120 @@
+:root{
+    --spitak : #fff;
+}
+.App{
+    min-height: 97vh;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(129, 167, 154);
+}
+.container h1{
+    color: red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    width: 100%;
+    background-color: rgb(148, 78, 78);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header ul {
+    display: flex;
+    width: 362px;
+}
+header ul li{
+    list-style: none;
+    margin-left: 15px;
+    font-size: 23px;
+}
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+main{
+    height: 310px;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(201, 190, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(226, 214, 43);
+}
+footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    list-style: none;
+    border-radius: 8px;
+}
+footer ul li{
+    margin-top: 4px;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer ul a{
+    text-decoration: none;
+    color: rgb(228, 21, 21);
+    font-size: 14px;
+}
+img{
+    width: 600px;
+    height: 300px;
+}
+
+/* Signin style */
+.signin{
+    width: 700px;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.signin h1{
+    font-size: 36px;
+}
+input[type='text']{
+    padding: 9px 80px;
+    margin-top: 15px;
+    border-radius: 4px;
+    border: 0.5px solid black;
+}
+/* Signin style */
+.signin{
+    width: 700px;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.signin h1{
+    font-size: 36px;
+    color: var(--spitak)
+}
+.signin button{
+    margin-top: 20px;
+    /* padding: 7px 25px; */
+}
+.goto{
+    font-size: 23px;
+    margin-top: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--spitak); 
+}
